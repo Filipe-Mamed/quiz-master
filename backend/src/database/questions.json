@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "question": "Qual é a capital do Brasil?",
+    "alternatives": [
+      "São Paulo",
+      "Rio de Janeiro",
+      "Salvador",
+      "Brasília",
+      "Curitiba"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 2,
+    "question": "Quanto é 7 × 8?",
+    "alternatives": ["54", "56", "49", "64", "58"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 3,
+    "question": "Qual planeta é conhecido como 'Planeta Vermelho'?",
+    "alternatives": ["Júpiter", "Marte", "Vênus", "Saturno", "Mercúrio"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "Quem escreveu 'Dom Quixote'?",
+    "alternatives": [
+      "Machado de Assis",
+      "José de Alencar",
+      "Miguel de Cervantes",
+      "Camões",
+      "Victor Hugo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "question": "Em que ano começou a Segunda Guerra Mundial?",
+    "alternatives": ["1930", "1937", "1939", "1941", "1945"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 6,
+    "question": "Qual destes animais é um mamífero?",
+    "alternatives": ["Cobra", "Tubarão", "Sapo", "Golfinho", "Avestruz"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 7,
+    "question": "Qual é o maior oceano do mundo?",
+    "alternatives": ["Atlântico", "Índico", "Pacífico", "Ártico", "Antártico"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 8,
+    "question": "Quem pintou a obra 'Mona Lisa'?",
+    "alternatives": [
+      "Van Gogh",
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Picasso",
+      "Rafael"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 9,
+    "question": "Qual é a fórmula química da água?",
+    "alternatives": ["H2O", "CO2", "O2", "H2", "H2SO4"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "Qual é o maior país em extensão territorial?",
+    "alternatives": ["Estados Unidos", "Brasil", "Canadá", "China", "Rússia"],
+    "correctAnswer": 4
+  },
+  {
+    "id": 11,
+    "question": "Qual é o elemento químico representado pelo símbolo 'Fe'?",
+    "alternatives": ["Ferro", "Flúor", "Ferroso", "Fenol", "Fosfato"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "Quem foi o primeiro homem a pisar na Lua?",
+    "alternatives": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "John Glenn",
+      "Alan Shepard"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "Qual é a montanha mais alta do mundo?",
+    "alternatives": [
+      "Monte Everest",
+      "K2",
+      "Monte Kilimanjaro",
+      "Monte Fuji",
+      "Mont Blanc"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "Em qual continente fica o Egito?",
+    "alternatives": ["Ásia", "Europa", "África", "América", "Oceania"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 15,
+    "question": "Quantos lados tem um hexágono?",
+    "alternatives": ["5", "6", "7", "8", "9"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 16,
+    "question": "Quem é conhecido como o 'Pai da Computação'?",
+    "alternatives": [
+      "Charles Babbage",
+      "Alan Turing",
+      "Bill Gates",
+      "Ada Lovelace",
+      "Steve Jobs"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "Qual desses países NÃO é europeu?",
+    "alternatives": ["Áustria", "Hungria", "Grécia", "Marrocos", "Espanha"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 18,
+    "question": "Qual é o idioma mais falado no mundo?",
+    "alternatives": ["Espanhol", "Inglês", "Mandarim", "Hindi", "Árabe"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 19,
+    "question": "Quantos segundos há em 1 minuto?",
+    "alternatives": ["30", "60", "90", "120", "45"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 20,
+    "question": "Qual desses é um instrumento de corda?",
+    "alternatives": ["Piano", "Violino", "Flauta", "Bateria", "Trompete"],
+    "correctAnswer": 1
+  }
+]
