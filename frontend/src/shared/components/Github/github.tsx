@@ -13,7 +13,7 @@ export const GitHub = () => {
       content="Ir para o repositório GitHub"
       positioning={{ placement: "top" }}
     >
-      <Link to="https://github.com/Filipe-Mamed">
+      <Link to="https://github.com/Filipe-Mamed/quiz-master" target="_blank" rel="noopener noreferrer" >
         <FaGithub />
       </Link>
     </Tooltip>
