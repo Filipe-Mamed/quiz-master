@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
-import { Box, Heading, Text, Stack } from "@chakra-ui/react";
+import { Box, Heading, Text, Stack, Flex } from "@chakra-ui/react";
 
 import { type I_ValidationResult } from "@/shared/types";
 import { api } from "@/shared/service/backend-api";
@@ -93,7 +93,15 @@ export const Result = () => {
         <Spinner />
       ) : (
         // Exibe cartão com o resultado do quiz
-        <Card>
+        <Flex align="center" justify="center"  minH="100vh">
+          <Card
+          bg="bg.card"
+          rounded="xl"
+          shadow="button"
+          p={5}
+          maxW="600px"
+          w="100%"
+        >
           <Box textAlign="center" mb={6}>
             <Heading as="h2" size="2xl" mb={4} color="black">
               Quiz Finalizado
@@ -167,6 +175,7 @@ export const Result = () => {
             </Stack>
           </Box>
         </Card>
+        </Flex>
       )}
     </>
   );
