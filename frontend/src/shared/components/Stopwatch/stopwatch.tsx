@@ -47,7 +47,7 @@ export const Stopwatch = ({
   return (
     <>
       {/* Exibe o tempo formatado */}
-      <Text>{formatTime(time)}</Text>
+      <Text fontWeight="medium">{formatTime(time)}</Text>
     </>
   );
 };

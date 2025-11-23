@@ -19,7 +19,7 @@ export const Quiz = () => {
   // Índice da pergunta atual
   const [currentIndex, setCurrentIndex] = useState(0);
   // Respostas do usuário (índice da alternativa escolhida ou null)
-  const [answers, setAnswers] = useState<number[]>([]);
+  const [answers, setAnswers] = useState<(number | null)[]>([]);
   // Indica se os dados ainda estão sendo carregados
   const [loading, setLoading] = useState(true);
 
@@ -122,7 +122,7 @@ export const Quiz = () => {
     setAnswers((prev) => {
       const newAnswers = [...prev]; // Alterna seleção: se já estava selecionada, limpa
       newAnswers[currentIndex] =
-        newAnswers[currentIndex] === altIndex ? -1 : altIndex;
+        newAnswers[currentIndex] === altIndex ? null : altIndex;
       return newAnswers;
     });
   };
@@ -147,6 +147,7 @@ export const Quiz = () => {
               w="100%"
               textAlign="center"
             >
+              {/* Exibe cronômetro regressivo para concluir o quiz, redirecionando automaticamente para o resultado ao final */}
               <Stopwatch
                 userResponse={questions.map((q, i) => {
                   return {
@@ -164,7 +165,6 @@ export const Quiz = () => {
               maxW="600px"
               w="100%"
             >
-              {/* Exibe cronômetro regressivo para concluir o quiz, redirecionando automaticamente para o resultado ao final */}
               <Box mb={4}>
                 <Box mb={4}>
                   <Heading>
