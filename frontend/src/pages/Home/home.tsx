@@ -5,11 +5,16 @@ import { Box, Flex, Heading, HStack, Text } from "@chakra-ui/react";
 
 import { Button } from "@/shared/components/Button";
 import { GitHub } from "@/shared/components/Github";
+import { useGame } from "@/shared/hooks/useGame";
 
 // Componente principal da página inicial do Quiz
 export const Home = () => {
   // Hook para navegar entre páginas usando o react-router
   const navigate = useNavigate();
+
+  // Obtém a função responsável por alterar o estado global "isPlaying"
+  // Quando setIsPlaying(true) for chamado, significa que o usuário iniciou o quiz
+  const { setIsPlaying } = useGame();
 
   /**
    * Impede o usuário de voltar para a página anterior usando o botão "Voltar" do navegador.
@@ -27,14 +32,17 @@ export const Home = () => {
   }, [navigate]);
 
   /**
-   * Função que navega para a tela do quiz ao clicar no botão "Iniciar Quiz"
+   * Inicia o quiz ao clicar no botão "Iniciar Quiz".
+   * - Ativa o estado global "isPlaying", permitindo acesso às rotas protegidas.
+   * - Em seguida, navega para a tela do quiz.
    */
   const handleStartQuiz = () => {
+    setIsPlaying(true);
     navigate("/quiz");
   };
   return (
     <>
-      <Flex align="center" justify="center" minH="100vh"  direction="column">
+      <Flex align="center" justify="center" minH="100vh" direction="column">
         {/* Caixa com informações e boas-vindas */}
         <Box
           textAlign="center"
