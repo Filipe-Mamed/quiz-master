@@ -1,16 +1,14 @@
 import type React from "react";
 
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, type BoxProps } from "@chakra-ui/react";
+
+interface I_BoxProps extends BoxProps {
+  children: React.ReactNode;
+}
 
 /**
  * Componente "Card" para aplicação
  */
-export const Card = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <Flex align="center" justify="center" minH="100vh" direction="column" >
-      <Box bg="bg.card" rounded="xl" shadow="button" p={5} maxW="600px" w="100%">
-        {children}
-      </Box>
-    </Flex>
-  );
+export const Card = ({ children, ...rest }: I_BoxProps) => {
+  return <Box {...rest}>{children}</Box>;
 };

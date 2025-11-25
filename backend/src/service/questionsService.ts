@@ -40,9 +40,9 @@ export const questionsService = {
     const shuffled = shuffle(questions);
 
     /**
-     * Seleciona as primeiras 10 perguntas
+     * Seleciona as primeiras 20 perguntas
      */
-    const selectedQuestions = shuffled.slice(0, 5);
+    const selectedQuestions = shuffled.slice(0, 20);
     logger.service.info(
       `Perguntas obtidas com sucesso: ${selectedQuestions.length} itens`
     );

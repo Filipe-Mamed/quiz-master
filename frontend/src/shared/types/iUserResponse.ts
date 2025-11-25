@@ -3,5 +3,5 @@
  */
 export interface I_UserResponse {
   id: number;
-  answer: number;
+  answer: number | null;
 }

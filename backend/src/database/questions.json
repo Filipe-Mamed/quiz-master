@@ -25,15 +25,9 @@
   },
   {
     "id": 4,
-    "question": "Quem escreveu 'Dom Quixote'?",
-    "alternatives": [
-      "Machado de Assis",
-      "José de Alencar",
-      "Miguel de Cervantes",
-      "Camões",
-      "Victor Hugo"
-    ],
-    "correctAnswer": 2
+    "question": "Quantas cores primárias existem?",
+    "alternatives": ["2", "3", "4", "5", "6"],
+    "correctAnswer": 1
   },
   {
     "id": 5,
@@ -129,7 +123,7 @@
       "Ada Lovelace",
       "Steve Jobs"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 1
   },
   {
     "id": 17,
@@ -154,5 +148,347 @@
     "question": "Qual desses é um instrumento de corda?",
     "alternatives": ["Piano", "Violino", "Flauta", "Bateria", "Trompete"],
     "correctAnswer": 1
+  },
+  {
+    "id": 21,
+    "question": "Qual é a unidade básica de hereditariedade?",
+    "alternatives": ["Célula", "Átomo", "Gene", "Molécula", "Tecido"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 22,
+    "question": "Qual órgão é responsável por bombear o sangue pelo corpo?",
+    "alternatives": ["Pulmão", "Fígado", "Estômago", "Coração", "Cérebro"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 23,
+    "question": "Qual gás é responsável pela cor verde das plantas?",
+    "alternatives": [
+      "Oxigênio",
+      "Nitrogênio",
+      "Clorofila",
+      "Dióxido de Carbono",
+      "Gás Hélio"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 24,
+    "question": "Quem formulou a Teoria da Relatividade?",
+    "alternatives": [
+      "Isaac Newton",
+      "Galileu Galilei",
+      "Stephen Hawking",
+      "Albert Einstein",
+      "Nikola Tesla"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 25,
+    "question": "Quantos elementos químicos existem na Tabela Periódica (atualmente reconhecidos pela IUPAC)?",
+    "alternatives": ["100", "108", "118", "120", "112"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 26,
+    "question": "Qual metal é líquido à temperatura ambiente?",
+    "alternatives": ["Ferro", "Ouro", "Mercúrio", "Alumínio", "Prata"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 27,
+    "question": "Qual país sediou os primeiros Jogos Olímpicos da era moderna em 1896?",
+    "alternatives": ["Itália", "França", "Alemanha", "Reino Unido", "Grécia"],
+    "correctAnswer": 4
+  },
+  {
+    "id": 28,
+    "question": "Qual é a capital da Austrália?",
+    "alternatives": ["Sydney", "Melbourne", "Canberra", "Perth", "Brisbane"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 29,
+    "question": "Qual é o oposto do dia?",
+    "alternatives": ["Noite", "Tarde", "Manhã", "Sol", "Lua"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "Qual é o nome da galáxia onde se encontra o nosso sistema solar?",
+    "alternatives": [
+      "Andrômeda",
+      "Nuvem de Magalhães",
+      "Via Láctea",
+      "Galáxia de Bode",
+      "Triângulo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 31,
+    "question": "Quem é o autor do livro 'O Pequeno Príncipe'?",
+    "alternatives": [
+      "Victor Hugo",
+      "Antoine de Saint-Exupéry",
+      "Júlio Verne",
+      "Charles Dickens",
+      "Mark Twain"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 32,
+    "question": "Qual dos seguintes é um Sistema Operacional (SO) usado na maioria dos celulares e smartphones?",
+    "alternatives": ["macOS", "Linux", "Android", "Windows", "Ubuntu"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 33,
+    "question": "Qual é o ponto de ebulição da água em graus Celsius (ao nível do mar)?",
+    "alternatives": ["0°C", "50°C", "90°C", "100°C", "110°C"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 34,
+    "question": "Qual país europeu é famoso por ter o formato de uma bota?",
+    "alternatives": ["Alemanha", "Itália", "Espanha", "Grécia", "Portugal"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 35,
+    "question": "Qual o animal mais rápido do mundo?",
+    "alternatives": [
+      "Leopardo",
+      "Guepardo",
+      "Falcão-peregrino",
+      "Avestruz",
+      "Cavalo"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 36,
+    "question": "Qual país tem o maior número de pirâmides?",
+    "alternatives": ["Egito", "México", "Sudão", "Peru", "China"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 37,
+    "question": "Qual é o principal componente do vidro?",
+    "alternatives": [
+      "Calcário",
+      "Argila",
+      "Areia (Sílica)",
+      "Carvão",
+      "Alumínio"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 38,
+    "question": "Quantos dias tem um ano bissexto?",
+    "alternatives": ["360", "365", "366", "367", "364"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 39,
+    "question": "Qual é a moeda oficial do Japão?",
+    "alternatives": ["Won", "Euro", "Iene", "Dólar", "Rupia"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 40,
+    "question": "Quantos anéis Saturno possui (visíveis e confirmados)?",
+    "alternatives": ["1", "5", "7", "10", "Incontáveis"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 41,
+    "question": "Qual é a cidade do Rio de Janeiro onde se passa a famosa música 'Garota de Ipanema'?",
+    "alternatives": ["Copacabana", "Ipanema", "Leblon", "Tijuca", "Botafogo"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 42,
+    "question": "Qual famoso músico brasileiro é conhecido como 'O Rei'?",
+    "alternatives": [
+      "Gilberto Gil",
+      "Caetano Veloso",
+      "Roberto Carlos",
+      "Chico Buarque",
+      "Tim Maia"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 43,
+    "question": "Qual é o nome do rato famoso que é mascote da Disney e namorado da Minnie?",
+    "alternatives": [
+      "Pateta",
+      "Pato Donald",
+      "Mickey Mouse",
+      "Pluto",
+      "Pernalonga"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 44,
+    "question": "Em que cidade fica a Torre Eiffel?",
+    "alternatives": ["Londres", "Roma", "Paris", "Berlim", "Nova Iorque"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 45,
+    "question": "Qual é o maior deserto do mundo?",
+    "alternatives": [
+      "Deserto do Atacama",
+      "Deserto do Saara",
+      "Deserto da Arábia",
+      "Deserto de Gobi",
+      "Antártica (Polo Sul)"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": 46,
+    "question": "Qual vitamina é mais associada à exposição solar?",
+    "alternatives": [
+      "Vitamina A",
+      "Vitamina B12",
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina K"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 47,
+    "question": "Qual é a cor que resulta da mistura de azul e amarelo?",
+    "alternatives": ["Laranja", "Roxo", "Verde", "Marrom", "Preto"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 48,
+    "question": "Qual é o nome do rio mais extenso do mundo?",
+    "alternatives": ["Nilo", "Yangtzé", "Mississippi", "Amazonas", "Paraná"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 49,
+    "question": "Em qual cidade dos Estados Unidos está localizada a Estátua da Liberdade?",
+    "alternatives": [
+      "Los Angeles",
+      "Washington D.C.",
+      "Nova Iorque",
+      "Chicago",
+      "Miami"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 50,
+    "question": "Quantos fusebox (furos) há em um campo de golfe padrão?",
+    "alternatives": ["9", "12", "15", "18", "21"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 51,
+    "question": "Qual é o nome popular do gás Dióxido de Carbono?",
+    "alternatives": [
+      "Gás Hélio",
+      "Gás Carbônico",
+      "Oxigênio",
+      "Gás Metano",
+      "Nitrogênio"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 52,
+    "question": "Qual instrumento de sopro é tipicamente usado em músicas de jazz e blues?",
+    "alternatives": ["Flauta", "Saxofone", "Trompete", "Clarinete", "Gaita"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 53,
+    "question": "Qual é a invenção mais creditada a Thomas Edison?",
+    "alternatives": [
+      "Telefone",
+      "Lâmpada elétrica",
+      "Rádio",
+      "Motor a vapor",
+      "Automóvel"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 54,
+    "question": "O que a sigla 'CEO' (muito comum em empresas) significa?",
+    "alternatives": [
+      "Chief Executive Officer",
+      "Corporate Economic Officer",
+      "Central Executive Organization",
+      "Completely Evolving Organization",
+      "Customer Experience Officer"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 55,
+    "question": "Quantos jogadores um time de futebol tem em campo (incluindo o goleiro)?",
+    "alternatives": ["9", "10", "11", "12", "15"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 56,
+    "question": "Qual é o nome do maior animal vivo do planeta?",
+    "alternatives": [
+      "Elefante africano",
+      "Baleia azul",
+      "Tubarão baleia",
+      "Urso polar",
+      "Girafa"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 57,
+    "question": "Qual das seguintes formas geométricas tem todos os seus lados iguais e quatro ângulos retos?",
+    "alternatives": [
+      "Retângulo",
+      "Triângulo",
+      "Losango",
+      "Círculo",
+      "Quadrado"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "id": 58,
+    "question": "Qual é o nome do esporte que usa um taco e uma pequena bola branca para encaçapar outras bolas coloridas em uma mesa?",
+    "alternatives": [
+      "Boliche",
+      "Tênis de Mesa",
+      "Golfe",
+      "Sinuca (Bilhar)",
+      "Cricket"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 59,
+    "question": "Qual é a cor que, ao ser misturada com o vermelho, resulta no laranja?",
+    "alternatives": ["Azul", "Verde", "Branco", "Amarelo", "Preto"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 60,
+    "question": "Em que país a dança do Tango se originou?",
+    "alternatives": ["Espanha", "Brasil", "Argentina", "México", "Portugal"],
+    "correctAnswer": 2
   }
 ]
