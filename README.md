@@ -59,8 +59,7 @@ Uma aplicação de perguntas e respostas interativas, onde o usuário responde u
 
 ## 🌐 Website
 
-Acesse o projeto online: **[QuizMaster](#)**
-_(adicione seu link aqui quando publicar)_
+Acesse o projeto online: **[QuizMaster](https://quiz-master-gules-chi.vercel.app/)**
 
 ---
 
