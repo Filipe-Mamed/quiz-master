@@ -9,12 +9,7 @@ import { I_Question, I_UserResponse, I_ValidationResult } from "../types";
 /**
  * Caminho para o arquivo de perguntas
  */
-const pathToQuestions = path.join(
-  __dirname,
-  "..",
-  "database",
-  "questions.json"
-);
+const pathToQuestions = path.join(process.cwd(), "database", "questions.json")
 
 /**
  * Serviço para gerenciar perguntas e validação de respostas
