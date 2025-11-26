@@ -17,7 +17,7 @@ const config = defineConfig({
         text: {
           black: { value: "#111111" },
           secondary: { value: "#a1a1aa" },
-          muted: { value: "#d4d4d8" },
+          muted: { value: "#71717a" },
         },
         bg: {
           body: { value: "#f4f4f5" },
