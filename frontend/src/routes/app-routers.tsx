@@ -4,6 +4,7 @@ import { Home } from "@/pages/Home/home";
 import { Quiz } from "@/pages/Quiz/quiz";
 import { Result } from "@/pages/Result/result";
 import { ProtectRoute } from "@/shared/components/ProtectRoute";
+import { PageNotFound } from "@/shared/components/PageNotFound";
 
 /**
  * Configuração das rotas principais da aplicação.
@@ -46,7 +47,7 @@ export const AppRoutes = () => {
           Rota coringa.
           Qualquer URL inválida redireciona para a Home.
         */}
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Router>
   );
